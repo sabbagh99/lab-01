@@ -1,0 +1,38 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+main{
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.contaner{
+    width: 960px;
+    height: 768px;
+    margin: auto;
+    text-align: center;
+}
+div{
+    box-sizing: border-box;
+    padding: 50px;
+    border: rgb(128, 128, 128) solid 1px;
+}
+@media (max-width: 768px){  /* for mobile */
+
+    .contaner{
+        width: 480px;
+        height: 767px;
+        margin: auto;
+        text-align: center;
+        /* color: rgb(128, 128, 128); */
+    }
+    div{
+        box-sizing: border-box;
+        /* background-color: rgb(128, 128, 128); */
+        padding: 50px;
+        border: rgb(128, 128, 128) solid 1px;
+
+    }
+}
