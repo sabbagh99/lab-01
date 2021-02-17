@@ -1,42 +1,6 @@
-.a{
-    background-color: rgb(188, 243, 188);
-
-}
-.b{
-   background-color: rgb(40, 138, 224)
-
-}
-.c{
-    background-color: rgb(84, 214, 84);
-
-}
-.d{
-    background-color: rgb(221, 156, 17);
-
-}
-.e{
-    background-color: rgb(99, 68, 68);
-}
-.f{
-    background-color: rgb(3, 14, 75);
-
-}
-.g{
-    background-color: rgb(9, 77, 109);
-
-}
-.h{
-    background-color: rgb(248, 178, 86);
-
-}
-.i{
-    background-color: rgb(78, 138, 78);
-
-}
-@media (max-width:768px){
-    
-
+/* mobile breackboint */
     .a{
+
         background-color: rgb(0, 255, 213);
 
     }
@@ -77,4 +41,82 @@
         background-color: rgb(53, 66, 83);
 
     }
+@media (min-width:768px){ /* tab beackpoint  */
+    .a{
+        background-color: rgb(188, 243, 188);
+    
+    }
+    .b{
+       background-color: rgb(40, 138, 224)
+    
+    }
+    .c{
+        background-color: rgb(84, 214, 84);
+    
+    }
+    .d{
+        background-color: rgb(221, 156, 17);
+    
+    }
+    .e{
+        background-color: rgb(99, 68, 68);
+    }
+    .f{
+        background-color: rgb(3, 14, 75);
+    
+    }
+    .g{
+        background-color: rgb(9, 77, 109);
+    
+    }
+    .h{
+        background-color: rgb(248, 178, 86);
+    
+    }
+    .i{
+        background-color: rgb(78, 138, 78);
+    
+    }
+    
+
+}
+
+@media (min-width:965px){ /* dicktop beackpoint  */
+    .a{
+        background-color: aqua;
+    
+    }
+    .b{
+       background-color: blueviolet;
+    
+    }
+    .c{
+        background-color: crimson;
+    
+    }
+    .d{
+        background-color: darkgreen;
+    
+    }
+    .e{
+        background-color: darkslateblue;
+    }
+    .f{
+        background-color: dimgray;
+    
+    }
+    .g{
+        background-color: fuchsia;
+    
+    }
+    .h{
+        background-color: darksalmon;
+    
+    }
+    .i{
+        background-color: teal;
+    
+    }
+    
+
 }
